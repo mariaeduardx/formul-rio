@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css"
     <title>formulário</title>
 
@@ -15,7 +16,7 @@
             <h1>CADASTRO</h1>
     <form>
         <label for="name">Nome:</label>
-    <input type="text" id="name" placeholder="Nome"
+    <input type="text" id="name" placeholder="Nome" class="textField">
     <label for="colorpicker">Cor favorita:</label>
     <input type="color" id="colorpicker"
     <label for="nascimento">Data de nascimento:</label>
@@ -23,10 +24,10 @@
     <label for="hrnascimento">Horário do nascimento:</label>
     <input type="time" id="hrnascimento">
     <label for="email">E-mail:</label>
-    <input type="email" placeholder="aaa@bbb.com">
+    <input type="email" placeholder="aaa@bbb.com "class="textField"> 
     
     <label for="email">Confirme o e-mail:</label>
-    <input type="email" id="confemail" placeholder="aaa@bbb.com">
+    <input type="email" id="confemail" placeholder="aaa@bbb.com" class="textField"> 
     
     <label for="doc">Faça upload do documento:</label>
     <input type="file" id="doc" accept=" .pdf"
@@ -36,13 +37,12 @@
     <input type="image" id="image"> 
     
     <label for="telefone">Telefone:</label>
-    <input type="number" id="telefone" placeholder=(11)9999-9999>
+    <input type="number" id="telefone" placeholder=(11)9999-9999 class="textField">
     
     <label for="pass">Senha:</label>
-    <input type="password" id="pass"
+    <input type="password" id="pass" class="textField">
     <label for="compass">Confirme a senha</label>
-    <input type="password" id="compass">
-    
+    <input type="password" id="compass" class="textField">
     <label for="sexo">Sexo:</label>
     <input type="radio" id="masc" name="sexo" value="m">
     <label for="masc">Masculino</label>
@@ -59,8 +59,9 @@
     <label for="agree">Concordo com as políticas</label>
     <input type="checkbox" id="agree" value="y">
     <label for="agree">Concordo com os termos</label>
-    <input type="reset" value="limpar">
-    <button>Enviar</button>
+    <input type="reset" value="limpar" class="whiteButton">
+    <button class="whiteButton" type="button">Enviar</button>
+
     </form>
         </div>
     </div
